@@ -799,62 +799,62 @@
 
 ## 5月31日（一刷）
 
-- disturbance：n 干扰；骚扰
-- immune：adj 有免疫力的；不受影响的
-- stimulus：n 刺激物；促进因素
-- homogeneous：adj 同种类的；同质的
-- premise：n 前提，假定
-- decent：adj 出色的；正派的；得体的
-- upright：adj 挺直的；正直的
-- spectacle：n 壮观景象；精彩表演
-- eject：v 逐出，赶出
-- inherit：v 继承；遗传
-- duplicate：v 复制 adj 复制的 n 复制品
-- arena：n 竞技场
-- rehearsal：n 排练；练习；演习
-- turnover：n 营业额，成交量
-- insulate：v 使隔热；使隔音
-- patrol：n 巡逻队 v 巡逻
-- hemisphere：n 半球
-- coincidence：n 巧合；并存
-- commute：v 通勤，减刑
-- genre：n 类型，体裁
-- lubricate：v 使润滑
-- appraisal：n 评价，鉴定，估价，估计
-- identical：adj 相同的
-- sober：adj 清醒的；冷静的 v 变得冷静
-- glow：n 微弱的光 v 发出微光
-- slash：v 砍，劈
-- jury：n 陪审团
-- trim：adj 苗条的，修长的 n 修剪，镶边
-- closet：n 储藏室 adj 隐藏身份的
-- spotlight：n 聚光灯
-- lofty：adj 高耸的；崇高的
-- gross：adj 总的；粗略的
-- discharge：v 免职，退伍，允许离开 n 排出（物）
-- pledge：v 保证 n 誓言
-- gorge：n 峡谷 v 狼吞虎咽
-- contingent：adj 偶然的 n 代表团
-- mortality：n 死亡率
-- chancellor：n 总理；大学校长
-- sturdy：adj 结实的；健壮的
-- imperative：n 重要的；必要的事
-- ornament：n 装饰品；首饰 v 装饰，美化
-- stark：adj 荒凉的；鲜明的
-- handicap：n 生理缺陷；障碍 v 妨碍；阻碍
-- nutrition：n 营养，滋养
-- inject：v 注射；增加
-- cognition：n 认知，认识
-- furnish：v 布置；向....供应
-- constraint：n 限制；限定
-- stereotype：n 刻板印象
-- flaw：n 错误；缺陷
-- appalling：令人震惊的
-- institute：n 协会，研究所
-- ego：自尊心
-- paradox：n 悖论；矛盾的人
-- ordeal：n 折磨，磨难
-- saturate：v 使浸透，渗透
+- ==disturbance==：n 干扰；骚扰
+- ==immune==：adj 有免疫力的；不受影响的
+- ==stimulus==：n 刺激物；促进因素
+- ==homogeneous==：adj 同种类的；同质的
+- ==premise==：n 前提，假定
+- ==decent==：adj 出色的；正派的；得体的
+- ==upright==：adj 挺直的；正直的
+- ==spectacle==：n 壮观景象；精彩表演
+- ==eject==：v 逐出，赶出
+- ==inherit==：v 继承；遗传
+- ==duplicate==：v 复制 adj 复制的 n 复制品
+- ==arena==：n 竞技场
+- ==rehearsal==：n 排练；练习；演习
+- ==turnover==：n 营业额，成交量
+- ==insulate==：v 使隔热；使隔音
+- ==patrol==：n 巡逻队 v 巡逻
+- ==hemisphere==：n 半球
+- ==coincidence==：n 巧合；并存
+- ==commute==：v 通勤，减刑
+- ==genre==：n 类型，体裁
+- ==lubricate==：v 使润滑
+- ==appraisal==：n 评价，鉴定，估价，估计
+- ==identical==：adj 相同的
+- ==sober==：adj 清醒的；冷静的 v 变得冷静
+- ==glow==：n 微弱的光 v 发出微光
+- ==slash==：v 砍，劈
+- ==jury==：n 陪审团
+- ==trim==：adj 苗条的，修长的 n 修剪，镶边
+- ==closet==：n 储藏室 adj 隐藏身份的
+- ==spotlight==：n 聚光灯
+- ==lofty==：adj 高耸的；崇高的
+- ==gross==：adj 总的；粗略的
+- ==discharge==：v 免职，退伍，允许离开 n 排出（物）
+- ==pledge==：v 保证 n 誓言
+- ==gorge==：n 峡谷 v 狼吞虎咽
+- ==contingent==：adj 偶然的 n 代表团
+- ==mortality==：n 死亡率
+- ==chancellor==：n 总理；大学校长
+- ==sturdy==：adj 结实的；健壮的
+- ==imperative==：n 重要的；必要的事
+- ==ornament==：n 装饰品；首饰 v 装饰，美化
+- ==stark==：adj 荒凉的；鲜明的
+- ==handicap==：n 生理缺陷；障碍 v 妨碍；阻碍
+- ==nutrition==：n 营养，滋养
+- ==inject==：v 注射；增加
+- ==cognition==：n 认知，认识
+- ==furnish==：v 布置；向....供应
+- ==constraint==：n 限制；限定
+- ==stereotype==：n 刻板印象
+- ==flaw==：n 错误；缺陷
+- ==appalling==：令人震惊的
+- ==institute==：n 协会，研究所
+- ==ego==：自尊心
+- ==paradox==：n 悖论；矛盾的人
+- ==ordeal==：n 折磨，磨难
+- ==saturate==：v 使浸透，渗透
 
 ------
 
