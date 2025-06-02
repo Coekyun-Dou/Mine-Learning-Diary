@@ -858,6 +858,40 @@
 
 ------
 
-## 6月1日（一刷）
+## 6月1日（搁置）
 
-- 
+> 赶作业......
+
+## 6月2日（一刷）
+
+- debut：n 首次登场
+- descendant：n 后裔，后代
+- loyalty：n 忠诚、忠心
+
+> royalty：n 皇室成员
+
+- shove：n/v  猛推，推挤
+- expire：v 终止，失效
+
+> inspire：激励
+
+- shrewd：adj 机灵的，敏锐的
+- pinpoint：v 准确指出，准确查找 n 极小的范围 adj 精准的
+- council：n 议会、委员会
+- clip：v 修剪；夹住 n 夹子；回形针
+- incidence：n 发生率
+- patent：n 专利；专利证书 adj 有专利的；显然的
+- intimate：adj 亲密的；隐私的
+- overhaul：v 彻底检修，赶上 n 检修，大修，改造
+- poke：v 戳、刺 n 刺，戳
+- vicious：adj 狂暴的
+- oak：n 橡树、橡木
+- sniff：v 嗅、闻 n 吸气
+- scrutiny：n 仔细检查；
+- vocal：adj 噪音的 n 歌唱部分
+- dine：v 吃饭，进餐
+- sacred：adj 神圣的；宗教的
+
+------
+
+## 6月3日（一刷）
