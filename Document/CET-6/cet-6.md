@@ -30,6 +30,17 @@
 
 > ==potential
 
+- crack：v 破裂、破碎，解开
+- guideline：n 准则
+- compromised：妥协的（还有泄露的意思）
+- is no small wonder：这难怪
+- peer-reviewed study：同行评审研究
+- have less to do：与...关系不大
+
+> have more to do：与...关系较大
+
+- which is to say：换句话说
+- verification：验证
 - 
 
 ------
@@ -636,11 +647,22 @@
 - hypothesis：n 假设，猜想
 - ingredient：n 成分；原料；因素
 - elaborate：adj 复杂的；详尽的 v 详尽阐述；精心制作
+
+> 关于复杂的英文：
+>
+> 1、intricate
+>
+> 2、complicated
+>
+> 3、sophisticated
+
 - integrity：n 正直；诚实，完整
 - smash：v 打碎，摔碎 n 打碎声；撞车
 - decorate：v 装饰，装修
 - burial：n 葬礼；埋葬
 - distortion：n 扭曲；变形；曲解
+- pentagon：n 五角大楼
+- verification：验证
 
 ------
 
