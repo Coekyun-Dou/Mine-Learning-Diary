@@ -917,3 +917,28 @@
 ------
 
 ## 6月3日（一刷）
+
+- chord：n 弦，心弦；和弦
+- deficit：n 赤字、亏损
+- spectrum：n 光谱；波谱；范围
+- toss：v 扔、抛 n 投掷
+- prose：n 散文
+- endow：v 向（机构）捐款；天生具有
+- congress：n 国会
+- kit：n 成套用具；装备
+
+> kick：v 踢，踢腿
+
+- liner：n 班机；定期列车；远洋客轮
+- commercial：adj 商业的，贸易的
+- condemn：v 谴责；判处
+- tame：adj 驯服的；乏味的
+- referee：n 裁判；仲裁员 v 担任裁判
+- antagonist：n 对手，对立者
+- liability：n 责任；债务
+- eligible：adj 有资格的；令人中意的
+- glamour：n 魅力；诱惑力
+- blaze：v 燃烧；闪耀 n 火焰；焰火
+- flirt：v 调情
+- shrug：v 耸肩
+- 
