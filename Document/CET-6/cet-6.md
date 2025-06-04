@@ -41,6 +41,18 @@
 
 - which is to say：换句话说
 - verification：验证
+- optimal：adj 优化的，最佳的
+- meticulous：adj 谨慎的，一丝不苟的
+- ritual：仪式、宗教的
+
+> daily ritual：日常仪式（日常训练）
+
+- predominantly：主要
+- formidable：可怕的，困难的 ==  scary == difficult
+- no two was ever the same：没有两样东西是一样的
+
+**`注意：听力当中一句话出现两个选项的话，则两个选项都不选`**
+
 - 
 
 ------
@@ -565,7 +577,7 @@
 > casual：adj 偶然的
 
 - ==revolve==：v 旋转；围绕...转；以...为中心
-- ==regime==：n 政权；组织方法；政治制度
+- ==regime==：n 政权；组织方法；政治制度；（补充：养生法、饮食起居制度）
 - ==discourse==：n 演讲，论文
 - ==depict==：v 描绘，描述，绘画
 - ==furious==：adj 暴怒的，激烈的
@@ -918,27 +930,76 @@
 
 ## 6月3日（一刷）
 
-- chord：n 弦，心弦；和弦
-- deficit：n 赤字、亏损
-- spectrum：n 光谱；波谱；范围
-- toss：v 扔、抛 n 投掷
-- prose：n 散文
-- endow：v 向（机构）捐款；天生具有
-- congress：n 国会
-- kit：n 成套用具；装备
+- ==chord==：n 弦，心弦；和弦
+- ==deficit==：n 赤字、亏损
+- ==spectrum==：n 光谱；波谱；范围
+- ==toss==：v 扔、抛 n 投掷
+- ==prose==：n 散文
+- ==endow==：v 向（机构）捐款；天生具有
+- ==congress==：n 国会
+- ==kit==：n 成套用具；装备
 
 > kick：v 踢，踢腿
 
-- liner：n 班机；定期列车；远洋客轮
-- commercial：adj 商业的，贸易的
-- condemn：v 谴责；判处
-- tame：adj 驯服的；乏味的
-- referee：n 裁判；仲裁员 v 担任裁判
-- antagonist：n 对手，对立者
-- liability：n 责任；债务
-- eligible：adj 有资格的；令人中意的
-- glamour：n 魅力；诱惑力
-- blaze：v 燃烧；闪耀 n 火焰；焰火
-- flirt：v 调情
-- shrug：v 耸肩
+- ==liner==：n 班机；定期列车；远洋客轮
+- ==commercial==：adj 商业的，贸易的
+- ==condemn==：v 谴责；判处
+- ==tame==：adj 驯服的；乏味的
+- ==referee==：n 裁判；仲裁员 v 担任裁判
+- ==antagonist==：n 对手，对立者
+- ==liability==：n 责任；债务
+- ==eligible==：adj 有资格的；令人中意的
+- ==glamour==：n 魅力；诱惑力
+- ==blaze==：v 燃烧；闪耀 n 火焰；焰火
+- ==flirt==：v 调情
+- ==shrug==：v 耸肩
+
+------
+
+## 6月4日（一刷）
+
+- fulfil：v 履行；完成
+- amplify：v 放大，增强
+- decay：n 腐烂、腐坏
+- evaporate：v 蒸发、逐渐消失
+- wholesome：adj 有益健康的；有道德的
+- valve：n 阀门；瓣膜
+- barren：adj 贫瘠的
+- impart：v 告知；传授
+- ingenious：adj 心灵手巧的
+- dean：n （大学）院长，系主任
+- maritime：adj 海的，海事的
+- privilege：n 特惠；荣幸 v 授予...以特权
+- infant：n 幼儿，婴儿 adj 幼期的
+- expedition：n 探险；探险队
+- momentum：n 动力，势头；冲量
+- optical：视力的；光学的
+- robust：adj 强健的；结实的
+- kidnap：v/n 劫持，绑架
+- conservative：adj 保守的
+- static：adj 静态的
+- pumpkin：n 南瓜
+- fraction：n 少量，少数
+- prejudice：n 偏见，成见
+- linger：v 徘徊，逗留
+- bully：v 恐吓，欺负 n 恃强凌弱者
+- prospective：adj 有可能的，潜在的
+- pasture：v 放牧
+- gauge：v 判断、测量；估算
+- occasional：adj 偶尔的
+- dwell：v 居住；细想
+- spontaneous：adj 自发的；自然的
+- sculpture：n 雕像（作品）；雕刻术
+- leaflet：n 宣传册；传单 v 散发传单
+- skull：n 颅骨，脑壳
+- perfume：n 香味，芳香；香水
+- parameter：n 参数，界限
+- herbal：adj 药草的，香草的
+- periodic：adj 定期的，间歇的
+- morality：n 道德；道德性
+
+------
+
+## 6月5日（一刷）
+
 - 
