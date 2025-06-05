@@ -53,7 +53,10 @@
 
 **`注意：听力当中一句话出现两个选项的话，则两个选项都不选`**
 
-- 
+- cornerstone：n 基石
+- moral：伦理、道德
+- authority：权威
+- filed studies：实地调查、实地研究
 
 ------
 
