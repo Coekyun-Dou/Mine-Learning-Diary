@@ -39,7 +39,7 @@ PC端：Windows、Linux、MacOs等....
 
 [【Linux入门】Linux发展史-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2337226)
 
-![林纳斯·本纳第克特·托瓦兹_百度百科](E:\study\My-Learning-Diary\Document\Linux\image\1.jpg)
+![林纳斯·本纳第克特·托瓦兹_百度百科](https://github.com/Coekyun-Dou/My-Learning-Diary/blob/main/Document/Linux/image/1.jpg?raw=true)
 
 > 贴一张创始人的照片为我们的学习保驾护航 ^ _ ^
 >
@@ -60,7 +60,7 @@ Linux主要由两部分组成：
 >
 > 下载地址：https://www.kernel.org
 >
-> ![image-20250607211741551](E:\study\My-Learning-Diary\Document\Linux\image\2.png)
+> ![image-20250607211741551](https://github.com/Coekyun-Dou/My-Learning-Diary/blob/main/Document/Linux/image/2.png?raw=true)
 
 *感兴趣的话可以下载瞧一瞧*
 
@@ -74,7 +74,7 @@ Linux主要由两部分组成：
 
 那么这样子市面上就会有很多Linux发行版：
 
-![image-20250607212030683](E:\study\My-Learning-Diary\Document\Linux\image\3.png)
+![image-20250607212030683](https://github.com/Coekyun-Dou/My-Learning-Diary/blob/main/Document/Linux/image/3.png?raw=true)
 
 > 在本系列的学习中，我们主要使用CentOS（国外用得多）以及Ubuntu（国内用的多）来学习Linux
 
