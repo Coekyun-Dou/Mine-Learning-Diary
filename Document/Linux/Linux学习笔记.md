@@ -135,3 +135,66 @@ ncpa.cpl
 ------
 
 ### 05 在VMware WorkStation中安装CentOS7 Linux操作系统
+
+1）下载操作系统的安装文件，
+
+https://vault.centos.org/7.6.1810/isos/x86_64/
+
+选中DVD-1810.iso的文件即可
+
+![image-20250608042545076](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250608042545076.png)
+
+2）创建虚拟机，并等待操作系统安装完成
+
+详细步骤可见：https://www.bilibili.com/list/watchlater?bvid=BV1n84y1i7td&p=6
+
+------
+
+### 06 远程连接Linux系统
+
+#### 1、掌握操作系统的图形化、命令行2种操作模式
+
+​	所有操作系统都有这两种使用方式
+
+- 图形化：使用操作系统提供的图形化页面，以获得图形化反馈的形式去使用操作系统
+- 命令行：使用操作系统提供的各类命令，以获得字符反馈的形式去使用操作系统
+
+#### 2、理解为什么使用命令行操作Linux系统
+
+在Linux操作系统上，无论是企业开发还是个人开发，多数情况使用的是：**命令行**
+
+因为Linux的图形化的优化不好，不好用、不稳定
+
+在开发中，使用命令行效率更高，更直观，资源占用更低，程序运行更稳定。
+
+#### 3、使用FinalShell软件连接Linux操作系统
+
+Q：为什么要用FinalShell？
+
+因为我们在Windows系统和Linux系统的各类交互中，跨越VMware不方便，所以要通过第三方软件FinalShell，远程连接到Linux系统之上，并通过FinalShell去操作它。
+
+安装配置教程：https://www.bilibili.com/list/watchlater?bvid=BV1n84y1i7td&p=8
+
+注意：Linux虚拟机如果重启，有可能发生IP改变，如果改变IP需要在FinalShell中修改连接的IP地址（在虚拟机中输入ifconfig，然后再FinalShell中修改一下）；也可以配置静态IP
+
+------
+
+### 07 拓展：WSL(Windows Subsystem for Linux)
+
+> 学习目标，掌握使用WSL获得Ubuntu系统环境，WSL功能是帮助我们更好地获得Linux操作系统环境。
+
+通过WSL，可以以非常轻量化的方式，得到Linux系统环境，所以开发者正逐步抛弃以虚拟机的形式获取Linux系统环境，逐步拥抱WSL环境
+
+#### 什么是WSL
+
+WSL：Windows Subsystem for Linux，适用于Windows系统之上的Linux子系统；作用很简单，可以再Windows系统中获得Linux系统环境，并且完全直连计算机硬件，无需通过虚拟机虚拟硬件。
+
+使用教程：https://www.bilibili.com/list/watchlater?bvid=BV1n84y1i7td&p=9
+
+与虚拟机中的操作系统不一样的是，wsl构建的操作系统是没有图形化的，只有命令行操作系统
+
+------
+
+### 08 拓展：虚拟机快照
+
+> 本节任务：掌握虚拟机快照的制作和还原
