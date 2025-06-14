@@ -190,3 +190,56 @@ getent group
 ------
 
 ### 04 修改权限控制1 - chmod命令
+
+#### 1、使用chmod修改权限信息
+
+我们可以使用chmod命令，修改文件、文件夹的权限信息。**注意：只有文件、文件夹的所属用户或root用户可以修改。**语法如下：
+
+```shell
+chmod [-R] 权限 文件或文件夹
+```
+
+- 选项： -R，对文件夹内的全部内容应用同样的操作(如果要文件夹里面的文件一起改变，一定要-R)
+
+示例：
+
+- `chmod u=rwx,g=rx,o=x hello.txt`，将文件权限修改为：`rwxr-x--x`
+  - 其中：u表示user所属用户权限，g表示group组权限，o表示other其他用户权限
+- `chmod -R u=rwx,g=rx,o=x test`，将文件夹test以及文件夹内全部内容权限设置为：`rwxr-x--x`
+
+> 除此之外，还有快捷写法：chmod 751 hello.txt
+>
+> 表示将hello.txt的权限修改为751。那么751表示的是什么东西呢？
+
+#### 2、权限的数字序号
+
+**记住r代表4、w代表2、x代表1就可以了**
+
+![image-20250614113126868](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250614113126868.png)
+
+> 那我们刚刚的751表示的是 `u=rwx(7=4+2+1) g=r-x(5=4+1) o=--x(1)`
+
+------
+
+### 05修改权限控制2- chown命令
+
+使用chown命令，可以修改文件、文件夹所属用户和用户组。**普通用户无法修改所属为其他用户或组，所以此命令只适用于root用户执行**(只有root用户可以用这条命令)，语法如下：
+
+```shell
+chown [-R] [用户][:][用户组] 文件或文件夹
+```
+
+- 选项：-R，同chmod，对文件夹内全部内容应用相同规则
+- 选项，用户，修改所属用户
+- 选项，用户组，修改所属用户组
+-  ：用于分隔用户和用户组
+
+示例：
+
+- `chown root hello.txt`，将hello.txt所属用户修改为root
+- `chown :root hello.txt`，将hello.txt所属用户组修改为root
+- `chown root:itheima hello.txt`，将hello.txt所属用户修改为root，用户组修改为itheima
+- `chown -R root test`,将文件夹test的所属用户修改为root并对文件夹内全部内容应用同样规则
+
+------
+
