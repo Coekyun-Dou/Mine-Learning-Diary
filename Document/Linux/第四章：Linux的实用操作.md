@@ -117,3 +117,109 @@ apt [-y] [install | remove | search] 软件名称
 ------
 
 ### 03 systemctl控制软件启动关闭
+
+Linux系统很多软件（内置或第三方）均支持使用systemctl命令控制：启动、停止、开机自启 ；能够被systemctl管理的软件，一般也称之为：服务，语法如下：
+
+```shell
+systemctl start | stop | status | enable| disable 服务名
+```
+
+- stop：关闭
+- start：启动
+- status：查看状态
+- enable：开启开机自启
+- disable：关闭开机自启
+
+系统内置的服务比较多，比如：
+
+- NetworkManager：主网络服务
+- network：副网络服务
+- firewalled：防火墙服务
+- sshd，ssh服务（FinalShell远程登录Linux用的就是这个服务）
+
+除了内置的服务以外，部分第三方软件安装后也可以通过systemctl进行控制
+
+<img src="C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250616101036713.png" alt="image-20250616101036713" style="zoom:80%;" />
+
+【注意】有部分软件安装后没有自动集成到systemctl中，这就需要我们手动添加。
+
+------
+
+### 04 软链接
+
+#### 1、ln命令创建软链接
+
+在系统中创建软链接，可以 将文件、文件夹连接到其它位置。类似于Windows系统中的《快捷方式》，语法如下：
+
+```shell
+ln -s 参数1 参数2
+```
+
+- -s 选项，创建软链接
+- 参数1：被链接的文件或文件夹
+- 参数2：要链接去的目的地
+
+实例：
+
+- `ln -s /etc/yum.conf~/yum.conf`
+- `ln -s /etc/yum~/yum`
+
+------
+
+### 05 日期和时区
+
+#### 1、date命令查看时间
+
+通过date命令可以在命令行中查看系统的时间，语法如下：
+
+```shell
+date [-d] [+格式化字符]
+```
+
+- -d 按照给定字符显示日期，一般用于日期计算
+
+![image-20250616103021332](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250616103021332.png)
+
+- 格式化字符：通过特定的字符串标记，来控制显示的日期格式
+  - %Y：年
+  - %y：年份后两位数字（范围 00~99）
+  - %m：月份
+  - %d：日
+  - %H：小时
+  - %M：分钟
+  - %S：秒
+  - %s：自1970-01-01 00:00:00 UTC到现在的秒数（也就是时间戳）
+
+#### 2、修改Linux系统的时区
+
+我们可以发现，现在用date命令查看的日期时间是不准确的，这是因为：**系统默认时区是非中国的东八区**
+
+我们可以使用root权限，执行如下命令，修改时区为东八区时区
+
+```shel
+rm -f /etc/localtime
+sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+```
+
+将系统自带的localtime文件删除，并将`/usr/share/zoneinfo/Asia/Shanghai /etc/localtime`  链接到localtime就可以了
+
+#### 3、使用ntp进行时间同步和校准
+
+>  我们可以通过ntp程序自动校准系统时间
+
+安装ntp：yum install ntp
+
+启动并设置开机自启：
+
+- systemctl start ntpd
+- systemctl enable ntpd
+
+当ntpd启动后会定期帮助我们联网校准系统时间
+
+- 也可以手动校准（需要root权限）：ntpdate -u ntp.aliyun.com
+
+通过阿里云提供的服务完整配合ntpdate实现手动校准
+
+------
+
+### 06 IP地址和主机名
