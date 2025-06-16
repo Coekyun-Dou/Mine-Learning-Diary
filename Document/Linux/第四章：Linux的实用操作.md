@@ -223,3 +223,45 @@ sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ------
 
 ### 06 IP地址和主机名
+
+#### 1、什么是ip地址
+
+每一台联网的电脑都会有一个地址，用于和其他计算机进行通讯
+
+ip地址主要有两个版本（V4和V6）
+
+IPV4的地址格式是`a.b.c.d` 其中abcd表示0~255的数字
+
+可以通过命令：`ifconfig` ，查看本机的ip地址，如无法使用ifconfig命令，可以安装：`yum -y install net-tools`
+
+![image-20250617003001980](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250617003001980.png)
+
+#### 2、特殊的IP地址
+
+除了标准的IP地址外，还有几个特殊的IP地址需要我们了解：
+
+- 127.0.0.1，这个地址用于指代本机
+- 0.0.0.0 特殊IP地址
+  - 可用于指代本机
+  - 可以在端口绑定用来确定绑定关系
+  - 在一些IP地址限制中，表示所有IP的意思，如放行规则设置为0.0.0.0，表示允许任意IP访问
+
+#### 3、主机名
+
+每台电脑除了对外联络地址（IP地址）以外，也可以有一个名字，称之为主机名。无论是Windows或Linux，都可以给系统设置主机名
+
+- Linux系统的主机名可用命令`hostname` 查看
+- 可以用`hostnamectl set-hostname 主机名`，修改主机名（需root）
+- 重新登陆后就可以发现主机名已经被更改了
+
+#### 4、域名解析
+
+IP地址难以记忆，所以我们一直通过域名去访问服务器，很少指定IP地址，例如www.baidu.com，其中baidu.com就是他的域名，而不是他的IP地址
+
+> 域名解析其实就是字符到IP地址的映射
+>
+> 具体的只是可以查阅计算机网络课程相关知识；
+
+------
+
+### 07 配置Linux固定IP地址
