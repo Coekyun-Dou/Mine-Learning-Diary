@@ -1,0 +1,3 @@
+hello acm world!
+if you work hard,
+you'll get a good grades!
