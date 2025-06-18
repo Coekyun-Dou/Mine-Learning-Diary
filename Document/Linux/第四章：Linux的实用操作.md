@@ -315,3 +315,53 @@ curl [-O] url
 
 ------
 
+### 09 端口
+
+#### 1、端口的概念
+
+​	端口，是设备与外界通讯交流的出入口。端口可以分为：物理端口和虚拟端口两类。
+
+- 物理端口：又可称之为接口，是可见的端口，如USB接口，RJ45网口，HDMI端口等
+- 虚拟端口：是指计算机内部的端口，是不可见的，是用来操作系统和外部进行交互使用的
+
+![image-20250618215210529](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250618215210529.png)
+
+![image-20250618215331713](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250618215331713.png)
+
+计算机程序之间的通讯，通过IP只能锁定计算机，但是无法锁定具体的程序
+
+通过端口可以锁定计算机上具体的程序，确保程序之间进行沟通
+
+IP地址相当于小区地址，在小区内可以有许多住户（程序），而门牌号（端口）就是各个住户（程序）的联系地址
+
+##### 2、Linux的端口划分
+
+![image-20250618215607074](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250618215607074.png)
+
+##### 3、查看端口占用
+
+我们可以通过Linux中的`nmap`命令去查看端口的占用情况
+
+- 使用 `nmap` 命令，安装`nmap：yum -y install nmap`
+
+语法如下：
+
+```shell
+nmap 被查看的IP地址
+```
+
+#### 2、netstat命令的基本使用
+
+也可以通过 `netstat` 命令，查看指定端口的占用情况，语法如下：
+
+```shell
+netstat -anp|grep 端口号
+```
+
+ 需要通过安装netstat:`yum -y install net-tools`
+
+比如：`netstat -anp|grep 6000` 这样就可以查看当前系统6000端口被程序的占用情况
+
+------
+
+### 10 进程管理
