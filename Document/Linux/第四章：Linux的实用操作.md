@@ -421,3 +421,79 @@ kill [-9] 进程ID
 ------
 
 ### 11 主机状态监控
+
+#### 1、查看系统资源占用
+
+- 可以通过top命令查看CPU、内存使用情况，类似Windows的任务管理器
+
+>  默认**每5秒刷新一次**，语法：**直接输入`top` 即可，按`q` 或 `ctrl + c`退出 
+
+![image-20250623205918463](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250623205918463.png)
+
+- 第一行：`top - 14:39:58 up 6min, 2users ,load average:0.06,0.17,0.13`
+
+> top：命令名称，14:39:58 当前系统时间，up 6min 启动了6分钟，2users 两个用户登录 load：1、5、15分钟负载
+
+- 第二行`Task:175 total ,1 running, 174 sleeping, 0stopped, 0 zombie`
+
+> Task：175个进程，1running：1个进程子在运行，174 sleeping：174个进程睡眠，0个停止进程，0个僵尸进程
+
+- 第三行：`%Cpu(s): 0.3us, 1.4 sy, 0.0ni, 98.3 id, 0.0wa, 0.0hi, 0.0si, 0.0st`
+
+> %Cpu(s)：CPU使用率，us：用户CPU使用率，sy：系统CPU使用率，ni：高优先级进程占用CPU时间百分比；id：空闲CPU率，wa：IO等待CPU占有率，hi：CPU硬件中断率，si：CPU软件中断率，st 强制等待占用CPU率
+
+- 第四、五行：
+
+![image-20250623210803810](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250623210803810.png)
+
+> Kib Mem：物理内存，total：总量，free：空闲，used：使用，buff/cache：buff何cache占用
+>
+> KibSwap：虚拟内存（交换空间），total：总量，free 空闲，used 使用，buff/cache：buff何cache占用
+
+##### 1）top命令内容详解
+
+![image-20250623211500304](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250623211500304.png)
+
+- PID：进程id
+- USER：进程所属用户
+- PR：进程优先级，越小越高
+- NI：负值表示高优先级，正表示低优先级
+- VIRT：进程使用虚拟内存，单位KB
+- RES：进程使用物理内存，单位KB
+- SHR：进程使用共享内存，单位KB
+- S：进程状态（S休眠，R运行，Z僵死状态，N负数优先级，I空闲状态）
+- %CPU：进程占用CPU率
+- %MEM：进程占用内存率
+- TIME+：进程使用CPU时间总计，单位10毫秒
+- COMMAND：进程的命令或名称或程序文件路径
+
+##### 2）top命令选项
+
+![image-20250623211918476](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250623211918476.png)
+
+##### 3）top的交互式选项
+
+![image-20250623212232272](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250623212232272.png)
+
+#### 2、磁盘信息监控
+
+- 使用df命令，可以查看硬盘的使用情况
+  - 语法：`df [-h]`
+  - 选项：-h，以更加人性化的单位显示
+
+- 可以使用iostat查看CPU、磁盘的相关信息
+  - 语法：`iostat [-x][num1][num2]`
+  - 选项：-x，显示更多信息
+  - num1：数字，刷新间隔，num2：数字，刷新几次
+
+【Tips】该设备美妙的传输次数。“一次传输”意思是“一次I/O请求”。多个逻辑请求可能会被合并为“一次I/O请求”。“一次传输”请求的大小是未知的
+
+![image-20250623213125406](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250623213125406.png)
+
+#### 3、网络状态监控
+
+![image-20250623213442414](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250623213442414.png)
+
+------
+
+### 12 环境变量
