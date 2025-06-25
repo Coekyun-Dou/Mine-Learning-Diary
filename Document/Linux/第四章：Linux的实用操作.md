@@ -497,3 +497,72 @@ kill [-9] 进程ID
 ------
 
 ### 12 环境变量
+
+在讲解which命令的时候，我们知道使用的一系列命令其本质上就是一个个的可执行程序。比如，cd命令的本体就是:/usr/bin/cd这个程序文件。
+
+那么我们可能会有译文，就是无论当前工作目录在哪里，都能执行：/usr/bin/cd这个程序呢？
+
+> 这就是环境变量的作用
+
+#### 1、什么是环境变量
+
+环境变量是操作系统在运行的时候，记录的一些关键性信息，用以辅助系统运行。在Linux系统中执行`env` 命令即可查看当前系统中记录的环境变量，环境变量是一种KeyValue型结构，即名称和值，
+
+![image-20250625204146661](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250625204146661.png)
+
+**PATH**
+
+在前面提出的问题中，我们说无论当前的工作目录是什么，都能执行/usr/bin/cd这个程序，这个就是借助环境变量中：PATH这个项目的值来做到的。
+
+可以通过修改这个项目的值，加入自定义的命令搜索路径，如：
+
+`export PATH=$PATH:自定义路径`
+
+![image-20250625204347392](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250625204347392.png)
+
+#### 2、$符号
+
+![image-20250625204457006](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250625204457006.png)
+
+#### 3、自行设置环境变量
+
+Linux环境变量可以用户自行设置，其中分为：
+
+- 临时设置，语法：export 变量名 = 变量值
+- 永久生效
+  - 针对当前用户生效，配置在当前用户的：~/bashrc文件中
+  - 针对所有用户生效，配置在系统的:/etc/profile文件中
+  - 并通过语法：source配置文件，进行立刻生效，或重新登录FinalShell生效
+
+![image-20250625204832120](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250625204832120.png)
+
+------
+
+### 13 Linux文件的上传和下载
+
+#### 1、上传、下载
+
+我们可以通过FinalShell工具，方便地和虚拟机进行数据交换。
+
+在FinalShell软件的下方窗口，提供了Linux的文件系统视图，可以方便的：
+
+- 浏览文件系统，找到合适的文件，右键单击下载，即可传输到本地电脑
+- 浏览文件系统，找到合适的目录，将本地电脑的文件拓展进入，即可方便的上传数据到Linux中
+
+![image-20250625205757133](C:\Users\Duuuzx\AppData\Roaming\Typora\typora-user-images\image-20250625205757133.png)
+
+#### 2、rz、sz命令
+
+当然，除了通过FinalShell的下方窗体进行文件的传输以外，也可以通过rz、sz命令进行文件传输。rz、sz命令需要安装，可以通过：`yum -y install lrzsz` 即可安装。
+
+- rz命令，进行上传，语法：直接输入rz即可
+
+- sz命令进行下载，语法：sz 要下载的文件
+
+  >  文件会自动下载到桌面的fsdownload文件夹中
+
+【注意】拖拽的速度会 比rz快得多。
+
+------
+
+### 14 压缩和解压
